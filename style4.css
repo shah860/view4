@@ -1,0 +1,268 @@
+.check{
+    height: 200;
+    width: 200;
+    border: 3px solid white;  
+}
+#box2{
+    font-style: bold;
+    color: blue;
+    margin-left: 1%;
+}
+#box{
+    margin-left: 15%;
+    font-style: bold;
+    color:black;
+}
+.backtodo{
+    background-color: whitesmoke;
+}
+.has{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 1px solid grey;
+    margin-left: 80%;
+    position: relative; 
+    color: white;
+    font-size: large;
+}
+.has1{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+}
+.has2{
+    text-decoration: none;
+    display: none;
+}
+.has1:hover{
+    box-shadow: 0px 0px 1px 1px grey;
+}
+a{
+    text-decoration: none;
+}
+
+.mainmenubox{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-left: 60px;
+    margin-right: 60px; 
+}
+.menubox{
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid grey;
+    color:blue;
+    text-align:left;
+    padding-left:10px ;
+    padding-right: 10px;
+    gap: 40px;
+}
+.menubox2{
+    display: none;
+}
+
+.menubox:hover{
+    box-shadow: 0px 0px 3px 3px grey;
+}
+h3{
+    color: blue;
+}
+.non{
+    text-decoration: none;
+}
+.check{
+    text-decoration:line-through;
+    color:grey
+}
+
+.check2{
+    color:grey;
+}
+
+.pg1{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:white;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin: auto;
+    position: relative;
+    top: 250px;  
+}
+.pg3{
+    float: right;
+    font-weight:large;
+    margin-right: 20px;
+    font-size:30px; 
+}
+.px3{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 30px; 
+    color: black;
+    text-decoration: none;
+}
+.parentdiv{
+    filter: blur(5px);
+    position: fixed;
+}
+.bott3{
+    width: 80px;
+    height: 35px;
+    color: white;
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color: blue;
+}
+.parent{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:white;
+    border: 1px solid wheat;
+    margin-top: 100px;
+    margin: auto;
+    position: relative;
+    top:150px;  
+}
+.child{
+    text-align: center;
+    color: blue;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 1px solid grey;
+    margin: auto;
+    position: relative;
+    top: 170px; 
+    color: white;
+    font-size: large;
+    margin-left: 55%
+}
+.plus{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px; 
+}
+.newtask{
+    margin: auto;
+    position: relative;
+    top: 200px; 
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    font-size: large;
+    display: none;
+}
+.icon2{
+    top: 130px;
+    font-size: large;
+    text-align: center;
+    position: relative;
+    margin-right: 25%;
+ }
+.back1{
+    font-size: larger;
+    text-align: center;
+    top: 150px;
+    position: relative;
+    margin-right: 20%;
+}
+.background{
+    background-color:lightgray;
+}
+.lastdiv1{
+    filter: blur(1px);
+}
+
+.pg4{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:white;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin: auto;
+    position: relative;
+    top: 20px;  
+}
+
+.pf4{
+    float: right;
+    font-weight:large;
+    margin-right: 20px;
+    font-size:30px;   
+}
+.px4{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.holder{
+    margin-left: 20px;
+}
+#newname{
+    background-color: lightgray;
+}
+
+@media screen and (min-width:280px) and (max-width:500px){
+    .todo{
+        width: 100vw;
+    }
+    .mainmenubox{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .menubox{
+        width: 80%;
+    }
+    .has{
+        margin-left: 60%;
+    }
+    .back1{
+        margin-right: 40%;
+    }
+    .icon{
+        margin-left: 60%;
+    }
+    .icon2{
+        margin-right: 60%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:900px){
+    .todo{
+        width: 100vw;
+    }
+    .mainmenubox{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .menubox{
+        width: 80%;
+    }
+    .has{
+        margin-left: 60%;
+    }
+    .back{
+        margin-right: 50%;
+    }
+    .icon{
+        margin-left: 80%;
+    }
+}
+
